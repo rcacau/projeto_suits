@@ -1,0 +1,165 @@
+/* GERAL */
+body{
+    background-color: black;
+}
+
+
+/* HEADER */
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 10vh;
+}
+
+.cabecalho_lista{
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    margin-right: 50px;
+}
+
+.cabecalho_lista_item{
+    color: white;
+    text-decoration: none;
+}
+
+.cabecalho_lista_item:hover{
+    color: rgba(255, 255, 255, 0.788);
+}
+
+
+
+/* BANNER */
+.banner{
+    background-image: url("https://blog.lojafreeway.com.br/wp-content/uploads/moda-suits-personagens.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* PERSONAGENS */
+.personagens{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 130vh;
+    flex-direction: column;
+}
+
+.titulo_section{
+    font-size: 3rem;
+    margin-bottom: 120px;
+}
+
+.personagens_caixas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.caixa{
+    border: 1px solid white;
+    height: 45vh;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+    padding: 0 30px;
+}
+
+.caixa h2{
+    font-size: 2.3rem;
+}
+
+.caixa p{
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 1.1;
+}
+
+
+
+
+
+
+/* BANNER SECUNDARIO */
+.banner_secundario{
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMHnBIwJfBuOofNQnBc0yrVnNTseqw6ypqTGXn6Yl45DBgYeVnSb9oOmsMXTWsa2_-icC9u7mbN25VatSUkuuLysJfbmvi_8U5ZWYtwaXUlhrXdPo_CBXvNDPT3NOKY09eLkyUb_6s8Sc/s1600/suits_logo-min.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/* SOBRE */
+.sobre{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.sobre_texto{
+    border: 1px solid white;
+    height: 55vh;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+    padding: 0 30px;
+    font-size: 1.3rem;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.sobre .pers{
+    margin-bottom: 60px;
+}
+
+
+
+
+/* FOOTER */
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 10vh;
+    color: white;
+}
+
+.rodape_icone{
+    max-width: 25px;
+    height: 25px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
